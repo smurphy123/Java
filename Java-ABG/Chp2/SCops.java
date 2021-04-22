@@ -15,7 +15,7 @@ class SCops {
             System.out.println(d + " is a factor of " + n);
         }
 
-        /* Now try the same thing without th short-circut operator.
+        /* Now try the same thing without the short-circut operator.
            This will cause a divide-by-zero error.
         */
         if(d != 0 & (n % d) == 0) {
