@@ -7,6 +7,7 @@ class logicalOpTable {
         System.out.println("P\tQ\tAND\OR\XOR\tNOT");
 
         p = true; q = true;
+        System.out.print(p + "\t" + q + "\t");
         System.out.print(p + "\t" + (p|q) + "\t");
         System.out.println((p^q) + "\t" + (!p));
 
