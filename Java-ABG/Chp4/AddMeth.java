@@ -3,8 +3,8 @@ public class AddMeth {
         Vehicle minivan = new Vehicle();
         Vehicle sportscar = new Vehicle();
 
-        int range1; 
-        int range2;
+        //int range1; 
+        //int range2;
 
         // assign values to fields in minivan
         minivan.passengers = 7;
