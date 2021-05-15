@@ -4,7 +4,7 @@ class Vehicle {
     int mpg;        // fuel consumption in miles per gallon    
 
     // Display the range.
-    void range() {
-        System.out.println("Range is " + fuelcap * mpg);
+    int range() {
+        return mpg * fuelcap;
     }
 }
