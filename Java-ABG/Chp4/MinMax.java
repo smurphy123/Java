@@ -24,5 +24,7 @@ class MinMax {
                 max = nums[i];
             }
         }
+
+        System.out.println("min and max: " + min + " " + max);
     }
 }
