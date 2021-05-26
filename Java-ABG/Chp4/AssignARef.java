@@ -34,5 +34,14 @@ class AssignARef {
         }
         System.out.println();
 
+        // now operate on nums1 array through nums2
+        nums2[3] = 99;
+
+        System.out.print("Here is nums1 after change through nums2: ");
+        for(i = 0; i < 10; i++) {
+            System.out.print(nums1[i] + " ");
+        }
+        System.out.println();
+
     }
 }
