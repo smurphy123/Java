@@ -13,9 +13,11 @@ class ForEach2 {
 
         // Use for-each for loop to display and sum the values.
         for(int x[] : nums) {
-            System.out.println("Value is: " + y);
+            for(int y : x) {
+                System.out.println("Value is: " + y);
             sum += y;
+            }
         }
+        System.out.println("Summation: " + sum);
     }
-    System.out.println("Summation: " + sum);
 }
