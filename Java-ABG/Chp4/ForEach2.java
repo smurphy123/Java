@@ -15,7 +15,7 @@ class ForEach2 {
         for(int x[] : nums) {
             for(int y : x) {
                 System.out.println("Value is: " + y);
-            sum += y;
+                sum += y;
             }
         }
         System.out.println("Summation: " + sum);
