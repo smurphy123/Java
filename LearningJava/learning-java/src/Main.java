@@ -3,14 +3,15 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        double studentGPA = 3.45;
-        String studentFirstName = "Kayla";
-        String studentLastName = "Hammon";
-        System.out.println(studentFirstName + " " +
-                studentLastName + " has a GPA of " + studentGPA);
-        System.out.println("What do you want to update it to?");
+        System.out.println("Pick a number between 1 and 10");
+        Scanner scanner = new Scanner(System.in);
 
-        Scanner input = new Scanner(System.in);
+        int inputtedNum = scanner.nextInt();
 
+        if (inputtedNum < 5) {
+            System.out.println("Enjoy the good luck a friend brings you");
+        } else {
+            System.out.println("Your shoe selection will make you very happy today");
+        }
     }
 }
