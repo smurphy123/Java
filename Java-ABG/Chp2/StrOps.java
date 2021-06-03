@@ -18,7 +18,13 @@ class StrOps {
         if(str1.equals(str2)) {
             System.out.println("str1 equals str2");
         } else {
-            
+            System.out.println("str1 does not equal str2");
+        }
+
+        if(str1.equals(str3)) {
+            System.out.println("str1 equals str3");
+        } else {
+            System.out.println("str1 does not equal str3");
         }
     }
 }
