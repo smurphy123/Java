@@ -1,7 +1,7 @@
 // Demonstrate the relational and logical operators.
 class RelLogOps {
-    public static void main(STring arg[]) {
-        int i, jl
+    public static void main(String arg[]) {
+        int i, j;
         boolean b1, b2;
 
         i = 10;
