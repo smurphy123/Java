@@ -1,12 +1,12 @@
 // Demonstrate block scope.
 class ScopeDemo {
     public static void main(String args[]) {
-        int x; // know to all code within main
+        int x; // known to all code within main
 
         x = 10;
         if(x == 10) { // start new scope
 
-            int y = 20; // know only to this block
+            int y = 20; // known only to this block
 
             // x and y both known here
 
