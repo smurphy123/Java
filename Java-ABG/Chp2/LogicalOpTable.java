@@ -4,7 +4,7 @@ class logicalOpTable {
 
         boolean p, q;
 
-        System.out.println("P\tQ\tAND\OR\XOR\tNOT");
+        System.out.println("P\tQ\tAND\tOR\tXOR\tNOT");
 
         p = true; q = true;
         System.out.print(p + "\t" + q + "\t");
