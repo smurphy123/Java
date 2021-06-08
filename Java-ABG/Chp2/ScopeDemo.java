@@ -15,11 +15,7 @@ class ScopeDemo {
         }
         // y = 100; // Error! y not known here
 
-        // x is still know here
+        // x is still known here
         System.out.println("x is " + x);
     }
-    // y = 100; // Error! y not known here
-
-    // x is still know
-    System.out.println("x is " + x);
 }
