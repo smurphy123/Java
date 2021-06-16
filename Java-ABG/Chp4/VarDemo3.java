@@ -11,5 +11,10 @@ class VarDemo3 {
 
         // Use type inference with iteration variable
         int[] nums = {1, 2, 3, 4, 5, 6 };
+        System.out.print("Values in nums array: ");
+        for(var v : nums) {
+            System.out.print(v + " ");
+        }
+        System.out.println();
     }
 }
