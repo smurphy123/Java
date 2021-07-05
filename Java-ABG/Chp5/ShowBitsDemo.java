@@ -9,5 +9,12 @@ class ShowBitsDemo {
 
         System.out.println("\n87987 in binary: ");
         i.show(87987);
+
+        System.out.println("\n237658768 in binary: ");
+        li.show(237658768);
+
+        // You can also show low-order bit of any integer
+        System.out.println("\nLow order 8 bit of 87987 in binary: ");
+        b.show(87987);
     }
 }
