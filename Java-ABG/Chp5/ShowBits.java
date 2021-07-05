@@ -17,7 +17,7 @@ class ShowBits {
                 System.out.print("1");
             } else {
                 System.out.print("0");
-                space - 0;
+                spacer = 0;
             }
         }
         System.out.println();
