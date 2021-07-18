@@ -7,9 +7,11 @@ public class HelloWorld {
 
     public static void main(String[]  args) {
 
-        int incMe = 0;
-        System.out.println("incMe : " + (incMe++));
-        System.out.println("incMe : " + (++incMe));
-
+        StringBuilder sb = new StringBuilder("I'm a string builder");
+        System.out.println(sb.length());
+        System.out.println(sb.capacity());
+        sb.append(" Yeah");
+        System.out.println(sb.insert(6, "Big "));
+        
     }
 }
