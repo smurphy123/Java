@@ -5,19 +5,22 @@ public class HelloWorld {
 
     static Scanner sc = new Scanner(System.in);
 
-    final double SHORTPI = 3.14159;
-
     public static void main(String[]  args) {
 
-        boolean happy = true;
-        char a = 'a';
-        float fNum = 1.11111111111111F;
-        float fNUM2 = 1.111111111111F;
-        System.out.println("Float : " + fNum + fNUM2);
+        int smInt = 10;
+        long smLong = smInt;
 
-        double thousand = 1e+3;
-        System.out.println(thousand);
+        double cDbl = 1.234;
+        int cInt = (int) cDbl;
+        System.out.println(cInt);
 
+        long bigLong = 2147486470L;
+        int bInt = (int) bigLong;
+        System.out.println(bInt);
+
+        String favNum = Double.toString(1.618);
+        int strInt = Integer.parseInt("10");
+        System.out.println(strInt);
 
     }
 }
