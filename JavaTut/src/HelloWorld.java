@@ -12,6 +12,6 @@ public class HelloWorld {
         System.out.println(sb.capacity());
         sb.append(" Yeah");
         System.out.println(sb.insert(6, "Big "));
-        
+
     }
 }
