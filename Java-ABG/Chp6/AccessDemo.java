@@ -5,7 +5,7 @@ class AccessDemo {
         /* Access to alpha is allowed only
            through it's accessor methods. */
         ob.setAlpha(-99);
-        System.out.println("ob.alpha is " + ob.getAlpha);
+        System.out.println("ob.alpha is " + ob.getAlpha());
 
         // You cannot access alpha like this: 
         // ob.alpha = 10; (WRONG! alpha is private!)
