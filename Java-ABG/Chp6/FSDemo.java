@@ -1,4 +1,4 @@
-// Demonstrate the fail-soft array
+// Demonstrate the fail-soft array.
 class FSDemo {
     public static void main(String args[]) {
         FailSoftArray fs = new FailSoftArray(5, -1);
