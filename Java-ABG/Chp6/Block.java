@@ -16,5 +16,7 @@ class Block {
             return false;
         }
     }
+
+    // Return true if ob has the same volume
     
 }
