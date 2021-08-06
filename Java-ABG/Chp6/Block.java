@@ -18,5 +18,12 @@ class Block {
     }
 
     // Return true if ob has the same volume
+    boolean sameVolume(Block ob) {
+        if(ob.volume == volume) {
+            return true;
+        } else {
+            return false;
+        }
+    }
     
 }
