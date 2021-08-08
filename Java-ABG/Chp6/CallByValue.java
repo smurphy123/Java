@@ -5,6 +5,10 @@ class CallByValue {
         int a = 15, b = 20;
 
         System.out.println("a and b before call: ");
+
+        ob.noChange(a, b);
+
+        System.out.println("a and b after call: " + a + " " + b);
     }
     
 }
