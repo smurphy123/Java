@@ -7,4 +7,5 @@ class PassOb {
         System.out.println("ob1 same dimensions as ob2: " + ob1.sameBlock(ob2));
         System.out.println("ob1 same dimensions as ob3: " + ob1.sameBlock(ob3));
         System.out.println("ob1 same volume as ob3: " + ob1.sameVolume(ob3));
+    }
 }
