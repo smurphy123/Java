@@ -8,7 +8,7 @@ class Test2 {
     }
     /* Pass an object. Now, ob.a and ob.b in object
     used in the call will be changed */
-    void change(Test ob) {
+    void change(Test2 ob) {
         ob.a = ob.a + ob.b;
         ob.b = -ob.b;
     }
