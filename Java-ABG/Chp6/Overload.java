@@ -14,5 +14,9 @@ class Overload {
         return a + b;
     }
 
-    
+    // Overload ovlDemo for two double parameters
+    double ovlDemo(double a, double b) {
+        System.out.println("Two double parameters: " + a + " " + b);
+        return a + b;
+    }
 }
