@@ -9,4 +9,10 @@ class Overload {
     }
 
     // Overload ovlDemo for two integer parameters.
+    int ovlDemo(int a, int b) {
+        System.out.println("Two parameters: " + a + " " + b);
+        return a + b;
+    }
+
+    
 }
