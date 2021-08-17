@@ -1,5 +1,11 @@
 /* Automatic type conversions can affect overloaded method resolution. */
 class Overload2 {
+
+    // Add f (byte)
+    void f(byte x) {
+        System.out.println("Inside f(byte): " + x);
+    }
+    
     void f(int x) {
         System.out.println("Inside f(int): " + x);
     }
