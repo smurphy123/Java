@@ -1,4 +1,4 @@
-public SavingsAccount{
+class SavingsAccount{
     double balance;
     public SavingsAccount(double startingBalance){
       balance = startingBalance;
