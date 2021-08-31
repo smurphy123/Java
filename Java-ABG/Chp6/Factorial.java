@@ -11,7 +11,7 @@ class Factorial {
         return result;
     }
 
-    // This is an interactive equivalent
+    // This is an interative equivalent
     int factI(int n) {
         int t, result;
 
