@@ -22,7 +22,14 @@ public class QueueDemo2 {
         System.out.print("Contants of q1: ");
         for(i = 0; i < 10; i++) {
             ch = q1.get();
+            System.out.print(ch);
+        }
 
+        System.out.println("\n");
+
+        System.out.print("Contents of q2: ");
+        for(i=0; i < 3; i++) {
+            ch = q2.get();
             System.out.print(ch);
         }
 
