@@ -9,6 +9,18 @@ class Queue {
         putloc = getloc = 0;
     }
 
+    // Construct a Queue from a Queue
+    Queue(Queue ob) {
+        putloc = ob.putloc;
+        getloc = ob.getloc;
+        q = new char[ob.q.length];
+
+        // copy elements
+        for(int i=getloc; i < putloc; i++) {
+            q[i] = ob.q[i];
+        }
+    }
+
     // Get a character from the queue
     char get() {
         if(getloc == putloc) {
