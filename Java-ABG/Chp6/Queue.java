@@ -4,6 +4,7 @@ class Queue {
     private char q[]; // this array hold the queue
     private int putloc, getloc; // the put and get indices
 
+    // Construct an empty Queue given its size
     Queue(int size) {
         q = new char[size]; // allocate memory for queue
         putloc = getloc = 0;
@@ -19,6 +20,25 @@ class Queue {
         for(int i=getloc; i < putloc; i++) {
             q[i] = ob.q[i];
         }
+    }
+
+    // Construct a Queue with initial values
+    Queue(char a[]) {
+        putloc = 0;
+        getloc = 0;
+        q = new char[a.length];
+
+        for (int i = 0; i < a.length; i++) { put(a[i]); }
+    }
+
+    // Put a character into the queue
+    void put(char ch) {
+        if(putloc == q.length) {
+            System.out.println(" - Queue is full.");
+            return;
+        }
+
+        q[putloc++] = ch;
     }
 
     // Get a character from the queue
