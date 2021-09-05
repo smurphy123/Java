@@ -9,5 +9,7 @@ class SDemo {
         System.out.println("Of course, ob1.x and ob2.x are independent.")
         System.out.println("ob1.x: " + ob1.x + "\nob2.x: " + ob2.x);
         System.out.println();
+
+        
     }    
 }
