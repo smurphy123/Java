@@ -28,5 +28,12 @@ class Quicksort {
                 i++; j--;
             }
         } while(i <= j);
+
+        if(left < j) {
+            qs(items, left, j);
+        }
+        if(i < right) {
+            qs(items, i, right);
+        }
     }
 }
