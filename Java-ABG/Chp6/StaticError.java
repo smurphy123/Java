@@ -5,6 +5,6 @@ class StaticError {
     /* Error! Can't access a non-static variable
     from within a static method. */
     static int valDivDenom() {
-        //return val/denom; //won't compile
+        return val/denom; //won't compile
     }
 }
