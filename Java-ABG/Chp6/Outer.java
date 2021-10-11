@@ -12,6 +12,19 @@ class Outer {
         System.out.println("Maximum: " + inOb.max());
         System.out.println("Average: " + inOb.avg());
     }
+
+    // This is an inner class
+    class Inner {
+        int min() {
+            int m = nums[0];
+
+            for(int i=1; i < nums.length; i++) {
+                if (nums[i] < m) {
+                    m = nums[i];
+                }
+            }
+        }
+    }
 }
 
 // TO DO: add analyze
