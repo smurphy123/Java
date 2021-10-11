@@ -27,6 +27,10 @@ class Outer {
         }
 
         int max() {
+            
+        }
+
+        int avg() {
             int a = 0;
             for(int i = 0; i < nums.length; i++) {
                 a += nums[i];
@@ -35,5 +39,3 @@ class Outer {
         }
     }
 }
-
-// TO DO: add analyze
