@@ -1,6 +1,7 @@
 // Use an inner class
 class Outer {
     int nums[];
+    // Outer class
     Outer(int n[]) {
         nums = n;
     }    
