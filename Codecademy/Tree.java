@@ -1,4 +1,4 @@
-// Define your tree class in this file!
+// Define your tree class in this file
 public class Tree {
     public static void main(String[] args) {
       /* This program will allow you to introduce yourself
